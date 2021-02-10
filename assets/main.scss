@@ -1,0 +1,75 @@
+---
+---
+
+@import "{{site.theme}}";
+:root {
+  --fblack: #161c10;
+  --fgreen: #37492d;
+  --lgreen: #8c9d75;
+  --lwood: #dbc9ab;
+  --fwood: #c99585;
+}
+//
+$base-font-family: "Crimson Text", serif;
+$code-font-family: "Open Sans", sans-serif;
+
+
+// Body
+main {
+  font-family: $code-font-family;
+}
+
+// Home
+.home-page-text {
+  font-size: 28px;
+  font-family: $base-font-family;
+}
+
+.home-page-img {
+  object-fit: cover;
+  width: 100%;
+
+}
+
+// Site header
+.site-header {
+  background-color: var(--fblack);
+}
+
+.site-title {
+  font-size: 36px;
+  font-family: $base-font-family;
+}
+.site-title,
+.site-title:visited {
+  font-family: $base-font-family;
+  color: white;
+}
+
+.site-nav .page-link {
+  font-family: $base-font-family;
+  font-size: 24px;
+  color: white;
+  // color:var(--lwood);
+}
+
+// Site footer
+.site-footer {
+  font-family: $code-font-family;
+}
+
+.footer-heading {
+  font-family: $base-font-family;
+  font-size: 24px;
+}
+
+.project-link, .github-link {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.github-link {
+    padding-bottom: 25px;
+}

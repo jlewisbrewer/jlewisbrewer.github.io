@@ -1,0 +1,36 @@
+title: Saevandill
+author: Jason Brewer
+email: jlewisbrewer@gmail.com
+description: Ramblings, Projects, Thoughts
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+linkedin_username: jlewisbrewer
+github_username:  jlewisbrewer
+
+
+# social_links:
+#   github: jlewisbrewer
+#   linkedin: jlewisbrewer
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+
+include:
+  - _pages
+
+collections:
+  projects:
+    output: true
+    sort_by: date-completed
+# header_pages:
+#   - about.markdown
+#   - projects.md
+#   - resume.md
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jlewisbrewer"
