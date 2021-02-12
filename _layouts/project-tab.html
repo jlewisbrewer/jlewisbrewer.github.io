@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="home">
+<div class="projects-tab">
   <!-- {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%} -->
@@ -16,17 +16,37 @@ layout: default
     {%- for project in projects reversed -%}
     <li>
       <h3>
+        {%- if project.external-url -%}
         <a class="project-link" href="{{ project.external-url }}"
           ><img src="{{project.text-url}}" alt="{{ project.title | escape }}" />
         </a>
+        {%- else -%}
+        <a class="project-link" href="{{ project.github-url }}"
+          ><img src="{{project.text-url}}" alt="{{ project.title | escape }}" />
+        </a>
+        {%- endif -%}
       </h3>
       {{ project.content }}
-      <a class="github-link" href="{{ project.external-url }}"
-        ><img
-          src="/assets/img/GitHub-Mark-32px.png"
-          alt="{{ project.title | escape }}"
-        />
-      </a>
+      <div class="project-link-icon-row">
+        <div class="project-link-icon">
+          <a class="github-link" href="{{ project.github-url }}"
+            ><img
+              src="/assets/imgs/icons/GitHub-Mark-32px.png"
+              alt="{{ project.title | escape }}"
+            />
+          </a>
+        </div>
+        {%- if project.external-url -%}
+        <div class="project-link-icon">
+          <a class="web-link" href="{{ project.external-url}}">
+            <img
+              src="/assets/imgs/icons/web_icon.png"
+              alt="{{project.title | escape}}"
+            />
+          </a>
+        </div>
+        {%- endif -%}
+      </div>
       <p></p>
     </li>
     {%- endfor -%}

@@ -2,7 +2,8 @@
 layout: project
 title: "HomeLibrary"
 categories: project
-external-url: "https://github.com/jlewisbrewer/HomeLibrary"
+# external-url: "https://github.com/jlewisbrewer/HomeLibrary"
+github-url: "https://github.com/jlewisbrewer/HomeLibrary"
 date-completed: 2020-09-01
 text-url: "https://fontmeme.com/permalink/210209/c32a7db96ab2f3e799798ce677de495a.png"
 ---

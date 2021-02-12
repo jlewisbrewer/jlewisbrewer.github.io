@@ -2,7 +2,8 @@
 layout: project
 title: "WorldTraveller"
 categories: project
-external-url: "https://github.com/jlewisbrewer/WorldTraveller"
+external-url: "https://jlewisbrewer.github.io/worldtraveller-static/"
+github-url: "https://github.com/jlewisbrewer/WorldTraveller"
 date-completed: 2021-01-21
 text-url: "https://fontmeme.com/permalink/210209/cf641c6251baa465c04a44f0f4dada67.png"
 ---

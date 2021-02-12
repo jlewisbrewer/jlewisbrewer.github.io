@@ -53,6 +53,21 @@ main {
   // color:var(--lwood);
 }
 
+// Projects-tab
+.projects-tab {
+  text-align: center;
+}
+
+.project-link-icon-row {
+  display: flex;
+  justify-content: center;
+}
+
+.project-link-icon {
+  flex: auto;
+
+}
+
 // Site footer
 .site-footer {
   font-family: $code-font-family;
