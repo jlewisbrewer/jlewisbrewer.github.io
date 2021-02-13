@@ -2,7 +2,7 @@
 layout: project
 title: "AmericanTraveller"
 categories: project
-external-url: "https://jlewisbrewer.github.io/americantravelller/"
+external-url: "https://jlewisbrewer.github.io/AmericanTraveller/"
 github-url: "https://github.com/jlewisbrewer/AmericanTraveller"
 date-completed: 2021-02-12
 text-url: "https://fontmeme.com/permalink/210213/ac97ee7defea3521568ee22db9170779.png"
