@@ -12,4 +12,4 @@ __________________________________________
 
 A small application that generates fantasy Japanese names based on the Legend of the Five Rings tabletop game.
 
-Technologies: Rust
+Tech stack: Rust, Cargo
