@@ -5,7 +5,7 @@ categories: project
 # external-url: "https://github.com/jlewisbrewer/HomeLibrary"
 github-url: "https://github.com/jlewisbrewer/HomeLibrary"
 date-completed: 2020-09-01
-text-url: "https://fontmeme.com/permalink/210209/c32a7db96ab2f3e799798ce677de495a.png"
+text-url: "https://i.postimg.cc/c18Q6msh/Screen-Shot-2021-02-14-at-4-10-07-PM.png"
 ---
 
 _____________________________________
